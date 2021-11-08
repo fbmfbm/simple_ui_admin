@@ -1,6 +1,8 @@
-# Ping CRM
+# SIMPLE UI ADMIN
 
-A demo application to illustrate how Inertia.js works.
+A simple UI admin panel for Laravel/Inertia with Tailwindcss and VueJS 3
+
+a fork from https://github.com/inertiajs/pingcrm.git !!
 
 ![](https://raw.githubusercontent.com/inertiajs/pingcrm/master/screenshot.png)
 
@@ -9,8 +11,8 @@ A demo application to illustrate how Inertia.js works.
 Clone the repo locally:
 
 ```sh
-git clone https://github.com/inertiajs/pingcrm.git pingcrm
-cd pingcrm
+git clone https://github.com/inertiajs/pingcrm.git  simple_ui_admin
+cd simple_ui_admin
 ```
 
 Install PHP dependencies:
