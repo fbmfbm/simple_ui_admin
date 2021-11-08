@@ -4,6 +4,8 @@ import PortalVue from 'portal-vue'
 import { InertiaProgress } from '@inertiajs/progress'
 import { createInertiaApp } from '@inertiajs/inertia-vue'
 
+
+
 Vue.config.productionTip = false
 Vue.mixin({ methods: { route: window.route } })
 Vue.use(PortalVue)
@@ -16,7 +18,7 @@ createInertiaApp({
   setup({ el, app, props }) {
     new Vue({
       metaInfo: {
-        titleTemplate: title => (title ? `${title} - Ping CRM` : 'Ping CRM'),
+        titleTemplate: title => (title ? `${title} - Simple UI admin` : 'Simple Ui Admin'),
       },
       render: h => h(app, props),
     }).$mount(el)
